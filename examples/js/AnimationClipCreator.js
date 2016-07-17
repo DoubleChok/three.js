@@ -101,7 +101,7 @@ THREE.AnimationClipCreator.CreateMaterialColorAnimation = function( duration, co
 
 	for( var i = 0; i <= colors.length; i ++ ) {
 
-		timees.push( i * timeStep );
+		times.push( i * timeStep );
 		values.push( colors[ i % colors.length ] );
 
 	}
